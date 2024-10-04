@@ -1,0 +1,32 @@
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    border-top: 1px solid #e9ecef;
+}
+
+.footer h5 {
+    margin-bottom: 15px;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icon {
+    margin-right: 15px;
+    font-size: 20px;
+    color: #495057;
+    cursor: pointer;
+}
+
+.social-icon:hover {
+    color: #007bff;
+}
+
+.text-center {
+    text-align: center;
+}

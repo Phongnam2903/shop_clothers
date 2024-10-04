@@ -1,0 +1,237 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "name": "Men",
+      "description": "Clothing for men"
+    },
+    {
+      "id": "2",
+      "name": "Women",
+      "description": "Clothing for women"
+    },
+    {
+      "id": "3",
+      "name": "Kids",
+      "description": "Clothing for kids"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Men's T-Shirt",
+      "description": "100% cotton, round neck",
+      "price": 199000,
+      "stock": 44,
+      "categoryId": 1,
+      "imageUrl": "/assets/caio-coelho-xFmXLq_KJxg-unsplash.jpg",
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": ["Black", "White", "Gray"],
+      "brand": "Brand A",
+      "saleDiscount": 0.1,
+      "category": "Women"
+    },
+    {
+      "id": "2",
+      "name": "Women's Dress",
+      "description": "Floral print, knee-length",
+      "price": 499000,
+      "stock": 30,
+      "categoryId": 2,
+      "imageUrl": "/assets/womens_dress.jpg",
+      "sizes": ["S", "M", "L"],
+      "colors": ["Red", "Blue", "Green"],
+      "brand": "Brand B",
+      "saleDiscount": 0.15
+    },
+    {
+      "id": "3",
+      "name": "Kids' Jacket",
+      "description": "Floral print, knee-length",
+      "price": 599,
+      "stock": 30,
+      "categoryId": "3",
+      "imageUrl": "/assets/faith-yarn-Wr0TpKqf26s-unsplash.jpg",
+      "sizes": ["S", "M", "L"],
+      "colors": ["Red", "Blue", "Green"],
+      "brand": "Brand C",
+      "saleDiscount": 0.15
+    },
+    {
+      "id": "4",
+      "name": "Kids' Jacket",
+      "description": "Warm and cozy jacket",
+      "price": 299000,
+      "stock": 20,
+      "categoryId": 3,
+      "imageUrl": "/assets/chris-lynch-pRdi2no2fvs-unsplash.jpg",
+      "sizes": ["S", "M", "L"],
+      "colors": ["Yellow", "Blue"],
+      "brand": "Brand D",
+      "saleDiscount": 0.2
+    },
+    {
+      "id": "5",
+      "name": "Áo Thun",
+      "description": "Thoáng mát, thích hợp cho mùa hè",
+      "price": "20",
+      "stock": "5",
+      "categoryId": "1",
+      "sizeIds": [],
+      "brandId": "1",
+      "imageUrl": "/assets/faith-yarn-Wr0TpKqf26s-unsplash.jpg",
+      "saleDiscount": "0",
+      "sizes": ["M", "L"],
+      "brand": "Brand C"
+    },
+    {
+      "id": "6",
+      "name": "Sơ mi",
+      "description": "áo sơ mi sọc kẻ",
+      "price": "50",
+      "stock": "5",
+      "categoryId": "1",
+      "sizes": ["S", "M", "L", "XL"],
+      "brand": "Brand A",
+      "imageUrl": "/assets/somi.jpg",
+      "saleDiscount": 0
+    },
+    {
+      "id": "7",
+      "name": "Áo Nữ",
+      "description": "Bộ đồ nữ",
+      "price": "20",
+      "stock": "5",
+      "category": "",
+      "sizes": ["S", "M"],
+      "brand": "Brand A",
+      "imageUrl": "/assets/aonu.jpg",
+      "saleDiscount": 0,
+      "categoryId": "2"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin",
+      "phoneNumber": "0123456789",
+      "role": "admin",
+      "imageUrl": "/assets/google.png"
+    },
+    {
+      "id": "2",
+      "username": "daiduong",
+      "password": "1234",
+      "phoneNumber": "9876543210",
+      "role": "user",
+      "imageUrl": "/assets/google.png"
+    },
+    {
+      "id": "3",
+      "username": "duong",
+      "password": "12345",
+      "phoneNumber": "2222222222",
+      "role": "user",
+      "imageUrl": "/assets/google.png"
+    }
+  ],
+  "orders": [
+    {
+      "id": "1",
+      "userId": 1,
+      "orderDate": "2024-08-18",
+      "status": "Shipped",
+      "totalAmount": 698000,
+      "items": [
+        {
+          "productId": 1,
+          "quantity": 2,
+          "price": 199000
+        },
+        {
+          "productId": 3,
+          "quantity": 1,
+          "price": 299000
+        }
+      ]
+    },
+    {
+      "id": "47c9",
+      "userId": 2,
+      "orderDate": "2024-08-20",
+      "status": "Processing",
+      "totalAmount": 599,
+      "items": [
+        {
+          "productId": "3",
+          "quantity": 1,
+          "price": 599
+        }
+      ]
+    },
+    {
+      "id": "7ad1",
+      "userId": 2,
+      "orderDate": "2024-08-21",
+      "status": "Processing",
+      "totalAmount": 398000,
+      "items": [
+        {
+          "productId": "1",
+          "quantity": 1,
+          "price": 199000
+        },
+        {
+          "productId": "1",
+          "quantity": 1,
+          "price": 199000
+        }
+      ]
+    },
+    {
+      "id": "16c9",
+      "userId": 2,
+      "orderDate": "2024-08-21",
+      "status": "Processing",
+      "totalAmount": 199000,
+      "items": [
+        {
+          "productId": "1",
+          "quantity": 1,
+          "price": 199000
+        }
+      ]
+    },
+    {
+      "id": "c043",
+      "userId": 2,
+      "orderDate": "2024-08-21",
+      "status": "Pending",
+      "totalAmount": 199000,
+      "items": [
+        {
+          "productId": "1",
+          "quantity": 1,
+          "price": 199000
+        }
+      ]
+    }
+  ],
+  "reviews": [
+    {
+      "id": "1",
+      "productId": 1,
+      "userId": 1,
+      "rating": 5,
+      "comment": "Great quality T-shirt!"
+    },
+    {
+      "id": "2",
+      "productId": 2,
+      "userId": 1,
+      "rating": 4,
+      "comment": "Nice dress, but the color is a bit different than in the picture."
+    }
+  ]
+}
